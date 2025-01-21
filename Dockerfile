@@ -14,4 +14,4 @@ COPY ./dist /app/dist
 EXPOSE 8000
 
 # Run the serve command to serve the static files from the dist folder
-CMD ["serve", "-s", "dist", "-l", "7000"]
+CMD ["serve", "-s", "dist", "-l", "8000"]
